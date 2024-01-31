@@ -97,6 +97,10 @@ For additional info, run `pybricksdev --help`.
 
 ### Flashing Pybricks MicroPython firmware
 
+Depending on the Hub that you are attempting to flash you may need to put your hub in DFU mode.
+
+For Spike Prime and Robot Inventor you can only flash the firmware in DFU mode [documentation](README_dfu.rst).
+
 Turn on the hub, and run:
 
     pipx run pybricksdev flash <firmware.zip>
